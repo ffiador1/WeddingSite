@@ -1,0 +1,24 @@
+{
+  "name": "weddingsite",
+  "version": "1.0.0",
+  "description": "A site for guests to access for the wedding information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffiador1/WeddingSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffiador1/WeddingSite/issues"
+  },
+  "homepage": "https://github.com/ffiador1/WeddingSite#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  }
+}

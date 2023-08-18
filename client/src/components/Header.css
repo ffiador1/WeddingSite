@@ -1,0 +1,63 @@
+/* Header.css */
+
+.site-header {
+    background-image: url('Pampas\ header.png');
+    background-color: #bfa390;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-family: 'Your Desired Font', sans-serif;
+  }
+  
+  .site-title {
+    font-size: 36px;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .site-subtitle {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 20;
+    padding: 70;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #bfa390;
+  }
+  
