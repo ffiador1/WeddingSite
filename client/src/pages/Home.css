@@ -11,5 +11,26 @@
     left: 0;
     z-index: -1;
   }
- 
-  
+ /* Style for the container of circular images */
+.circular-images {
+  display: flex; /* Use flexbox to arrange images and text side by side */
+  justify-content: space-between; /* Space evenly between the images and text */
+}
+
+/* Apply a circular clipping mask to each image container */
+.circular-image {
+  text-align: center; /* Center the text horizontally under the image */
+}
+
+.circular-image img {
+  width: 200px; /* Adjust the width and height as needed */
+  height: 200px;
+  border-radius: 50%; /* Create a circular clipping mask */
+  overflow: hidden; /* Hide any image content outside the circle */
+  margin-right: 10px; /* Add some spacing between the circular images */
+}
+
+.circular-image p {
+  margin-top: 5px; /* Add space between the image and the text */
+  color: black;
+}

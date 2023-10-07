@@ -1,63 +1,64 @@
 /* Header.css */
-
 .site-header {
-    background-image: url('Pampas\ header.png');
-    background-color: #bfa390;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .brand {
-    font-family: 'Your Desired Font', sans-serif;
-  }
-  
-  .site-title {
-    font-size: 36px;
-    align-items: center;
-    color: #ffffff;
-    margin: 0;
-  }
-  
-  .site-subtitle {
-    font-size: 18px;
-    color: #ffffff;
-    margin: 0;
-  }
-  
-  .nav-links {
-    list-style: none;
-    margin: 20;
-    padding: 70;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #bfa390;
-  }
-  
+  background-color: #000000;
+  padding: 1px 0;
+  box-shadow: 0 2px 4px rgba(79, 77, 77, 0.1);
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically within the viewport */
+  align-items: center; /* Center horizontally within the viewport */
+  min-height: 10vh; /* Ensure the header takes up the full viewport height */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 80%; /* Adjust the width as needed */
+  text-align: center; /* Center the content within the container */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.brand {
+  font-family: sans-serif;
+}
+
+.site-title {
+  font-size: 36px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.site-subtitle {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 auto; 
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0; /* Remove default padding */
+  display: flex;
+  justify-content: center; /* Center the navigation links horizontally */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #bfa390;
+}
